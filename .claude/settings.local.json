@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.realworld.show)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
