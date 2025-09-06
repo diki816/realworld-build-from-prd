@@ -9,7 +9,11 @@
       "Bash(touch:*)",
       "Bash(go mod init:*)",
       "Bash(gh issue list:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh issue close:*)",
+      "Bash(find:*)",
+      "Bash(go build:*)"
     ],
     "deny": [],
     "ask": []
