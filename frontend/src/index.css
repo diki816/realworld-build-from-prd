@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RealWorld Global Styles */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 leading-relaxed;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-gray-900;
+  }
+  
+  a {
+    @apply text-conduit-green hover:text-conduit-green-dark transition-colors duration-200;
+    text-decoration: none;
+  }
+}
+
+@layer components {
+  /* Custom button variants */
+  .btn {
+    @apply px-4 py-2 rounded font-medium text-center border transition-all duration-200 inline-block cursor-pointer;
+  }
+  
+  .btn-primary {
+    @apply bg-conduit-green text-white border-conduit-green hover:bg-conduit-green-dark hover:border-conduit-green-dark;
+  }
+  
+  .btn-outline {
+    @apply bg-transparent text-conduit-green border-conduit-green hover:bg-conduit-green hover:text-white;
+  }
+  
+  .btn-secondary {
+    @apply bg-conduit-gray-light text-conduit-gray border-conduit-gray-light hover:bg-gray-300;
+  }
+  
+  .btn-danger {
+    @apply bg-conduit-red text-white border-conduit-red hover:bg-red-600 hover:border-red-600;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1 text-sm;
+  }
+  
+  .btn-lg {
+    @apply px-6 py-3 text-lg;
+  }
+  
+  /* Form components */
+  .form-control {
+    @apply w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-conduit-green;
+  }
+  
+  .form-control-lg {
+    @apply px-4 py-3 text-lg;
+  }
+  
+  /* Article card styles */
+  .article-preview {
+    @apply border-t border-conduit-gray-light py-6 hover:bg-gray-50 transition-colors duration-200;
+  }
+  
+  /* Tag styles */
+  .tag-default {
+    @apply inline-block px-2 py-1 text-xs bg-conduit-gray-light text-conduit-gray rounded border border-conduit-gray-light mr-1 mb-1 hover:bg-conduit-gray hover:text-white cursor-pointer transition-colors duration-200;
+  }
+  
+  .tag-pill {
+    @apply px-3 py-1 text-xs bg-conduit-gray text-white rounded-full;
+  }
+}
