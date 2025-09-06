@@ -14,7 +14,15 @@
       "Bash(gh issue close:*)",
       "Bash(find:*)",
       "Bash(go build:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)"
     ],
     "deny": [],
     "ask": []
