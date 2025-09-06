@@ -3,7 +3,13 @@
     "allow": [
       "WebFetch(domain:docs.realworld.show)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(go mod init:*)",
+      "Bash(gh issue list:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []
